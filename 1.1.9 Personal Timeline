@@ -1,0 +1,28 @@
+public class Timeline
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Age     | M/YY - Description");
+        System.out.println("7       | 01/14 - Got braces");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("9       | 07/16 - Met my best friend");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("11       | 09/18 - 2 out of 7 brothers left for college");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("13      | 02/20 - Got a boating license");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("15      | 08/22 - Only sister left for college");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("        |  ");
+        System.out.println("17      | 07/23 - Got a job at the mall with friends");
+    }
+}
