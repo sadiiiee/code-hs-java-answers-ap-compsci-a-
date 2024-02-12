@@ -1,0 +1,29 @@
+public class PlayerTester
+{
+    public static void main(String[] args) {
+       
+       //Start here
+       CricketPlayer one = new CricketPlayer("Brian Laura");
+       CricketPlayer two = new CricketPlayer("Fabian Allen", "Team1");
+       one.addMatch(9,1);
+       one.addMatch(2,2);
+       one.addMatch(9,2);
+       one.addMatch(16,2);
+       System.out.println("Brian Laura's Stats:");
+       one.printRunsScored();
+       one.printBallsBowled();
+       System.out.println(one);
+       
+       System.out.println();
+       two.addMatch(12,20);
+       two.addMatch(11,20);
+       two.addMatch(12,20);
+       two.addMatch(12,21);
+       System.out.println("Fabian Allen's Stats:");
+       two.printRunsScored();
+       two.printBallsBowled();
+       System.out.println(two);
+       
+
+    }
+}
