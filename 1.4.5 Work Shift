@@ -1,0 +1,14 @@
+public class WorkShift
+{
+    public static void main(String[] args)
+    {
+        int hours = 20;
+        int min = 42;
+        int sec = 16;
+        int secInHours = hours * 60;
+        int secInH = secInHours * 60;
+        int secInM = min * 60;
+        int total = sec += secInM += secInH;
+        System.out.println(total);
+    }
+}
