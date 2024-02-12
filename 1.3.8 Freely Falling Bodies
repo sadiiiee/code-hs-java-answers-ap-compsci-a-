@@ -1,0 +1,14 @@
+public class FallingBodies
+{
+    public static void main(String[] args)
+    {
+    int time = 23;
+    double grav = 9.8;
+    double hei = 0.5 * grav * (time*time);
+    double vel = grav*time;
+    System.out.println("Height: " + hei);
+    System.out.println("Velocity: " + vel);
+    
+    
+    }
+}
