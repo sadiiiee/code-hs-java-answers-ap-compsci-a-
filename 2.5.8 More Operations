@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class CalculatorTester
+{
+    public static void main(String[] args)
+    {
+        // Put your code here
+        // A good place to start is to
+        // create comments like the last exercise
+        // to remind yourself what you need to do
+        Calculator c = new Calculator();
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a double:");
+        double one = input.nextDouble();
+        System.out.println("Enter another double:");
+        double two = input.nextDouble();
+        c.add(one,two);
+        c.multiply(one,two);
+        c.subtract(one,two);
+        c.divide(one,two);
+
+        
+        //To get started, create a new Calculator object
+    }
+}
